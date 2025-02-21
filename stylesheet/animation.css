@@ -1,0 +1,170 @@
+.burger-menu {
+  display: none; /* Скрываем по умолчанию на больших экранах */
+}
+
+#women {
+  margin-top: 194vw;
+  margin-left: 2vw;
+  background-image: url(../img/women.svg);
+  background-size: 9vw;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+#koster {
+  margin-top: 180vw;
+  margin-left: 30vw;
+  background-image: url(../img/koster1.svg);
+  background-size: 12vw;
+  background-repeat: no-repeat;
+  position: absolute;
+  animation: kosterMov 2.5s infinite linear;
+}
+
+@keyframes kosterMov {
+  0% {
+    left: 70vw;
+  }
+
+  100% {
+    left: -35vw;
+  }
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 175vw;
+  }
+
+  30% {
+    top: 170vw;
+  }
+
+  50% {
+    top: 160vw;
+  }
+
+  80% {
+    top: 170vw;
+  }
+
+  100% {
+    top: 175vw;
+  }
+}
+
+.gor1 {
+  width: 4vw;
+  position: absolute;
+  margin-top: 68vw;
+  margin-left: 26vw;
+}
+
+.gor2 {
+  height: 6vw;
+  position: absolute;
+  margin-top: 65vw;
+  margin-left: 28.5vw;
+}
+
+.gor3 {
+  width: 4vw;
+  position: absolute;
+  margin-top: 68.5vw;
+  margin-left: 28.5vw;
+}
+
+.gor4 {
+  width: 4.5vw;
+  position: absolute;
+  margin-top: 68vw;
+  margin-left: 26.5vw;
+}
+
+.gor5 {
+  width: 4.5vw;
+  position: absolute;
+  margin-top: 64vw;
+  margin-left: 27vw;
+}
+
+.gor6 {
+  height: 6vw;
+  position: absolute;
+  margin-top: 72vw;
+  margin-left: 70vw;
+}
+
+.gor7 {
+  width: 4vw;
+  position: absolute;
+  margin-top: 72vw;
+  margin-left: 70vw;
+}
+
+.gor8 {
+  width: 4vw;
+  position: absolute;
+  margin-top: 72vw;
+  margin-left: 70vw;
+}
+
+.gor9 {
+  width: 4vw;
+  position: absolute;
+  margin-top: 72vw;
+  margin-left: 70vw;
+}
+
+.gor10 {
+  width: 4vw;
+  position: absolute;
+  margin-top: 72vw;
+  margin-left: 70vw;
+}
+
+.gor11 {
+  height: 6vw;
+  position: absolute;
+  margin-top: 66vw;
+  margin-left: 50vw;
+}
+
+.gor12 {
+  width: 5vw;
+  position: absolute;
+  margin-top: 64vw;
+  margin-left: 47vw;
+}
+
+.gor13 {
+  height: 6vw;
+  position: absolute;
+  margin-top: 65vw;
+  margin-left: 47vw;
+}
+
+.bit1 {
+  width: 5vw;
+  position: absolute;
+  margin-top: 77vw;
+  margin-left: 25vw;
+}
+
+.bit2 {
+  width: 5vw;
+  position: absolute;
+  margin-top: 77vw;
+  margin-left: 47vw;
+}
+
+.bit3 {
+  width: 5vw;
+  position: absolute;
+  margin-top: 77vw;
+  margin-left: 68vw;
+}
