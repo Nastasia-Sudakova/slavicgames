@@ -4,6 +4,7 @@
   width: 100vw;
   height: 31vw;
   background-image: url("../img/forest.svg");
+  background-size: 100vw;
   background-repeat: no-repeat;
 }
 
